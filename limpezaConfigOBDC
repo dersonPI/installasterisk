@@ -21,7 +21,10 @@ apt install python3-pip -y
 apt install python3-xyzservices
 apt install python3.11-venv
 apt install python3-xyz
-
+python3 -m venv path/to/venv
+source path/to/venv/bin/activate
+pip install xyz
+source path/to/venv/bin/activate
 pip install alembic
 pip install psycopg2-binary
 pip install mysql-connector-python
